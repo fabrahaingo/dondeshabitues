@@ -5,14 +5,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.3408, 48.8403]
+        "coordinates": [2.3464, 48.8462]
       },
       "properties": {
         "id": 0,
-        "name": "Solera",
-        "phoneFormatted": "07 77 60 63 93",
-        "phone": "+33777606393",
-        "address": "283 Rue Saint-Jacques",
+        "name": "Panthéon",
+        "phoneFormatted": "07 00 00 00 00",
+        "phone": "+33700000000",
+        "address": "2, place du Panthéon",
         "city": "Paris",
         "country": "France",
         "postalCode": "75005",
@@ -24,14 +24,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.3236, 48.8532]
+        "coordinates": [2.3371, 48.8468]
       },
       "properties": {
         "id": 1,
-        "name": "Angelina",
-        "phoneFormatted": "01 46 34 31 19",
-        "phone": "+33146343119",
-        "address": "19 Rue de Vaugirard",
+        "name": "Jardin du Luxembourg",
+        "phoneFormatted": "01 00 00 00 00",
+        "phone": "+33100000000",
+        "address": "1, rue Soufflot",
         "city": "Paris",
         "country": "France",
         "postalCode": "75006",
@@ -48,8 +48,8 @@
       "properties": {
         "id": 1,
         "name": "Carreau du Temple",
-        "phoneFormatted": "01 46 34 31 19",
-        "phone": "+33146343119",
+        "phoneFormatted": "01 00 00 00 00",
+        "phone": "+33100000000",
         "address": "Carreau du Temple",
         "city": "Paris",
         "country": "France",

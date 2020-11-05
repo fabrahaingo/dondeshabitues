@@ -10,8 +10,8 @@
       "properties": {
         "id": 0,
         "name": "Tour Eiffel",
-        "phoneFormatted": "07 77 60 63 93",
-        "phone": "+33777606393",
+        "phoneFormatted": "07 00 00 00 00",
+        "phone": "+33700000000",
         "address": "3, rue de la Tour Eiffel",
         "city": "Paris",
         "country": "France",
@@ -29,8 +29,8 @@
       "properties": {
         "id": 1,
         "name": "Le Louvre",
-        "phoneFormatted": "01 46 34 31 19",
-        "phone": "+33146343119",
+        "phoneFormatted": "01 00 00 00 00",
+        "phone": "+33100000000",
         "address": "3, rue du Louvre",
         "city": "Paris",
         "country": "France",

@@ -1,15 +1,16 @@
-import { createPopUp } from '../createPopUp.js'
-import { flyToPlace } from '../flyToPlace.js'
+import { createPopUp } from '../../createPopUp.js'
+import { flyToPlace } from '../../flyToPlace.js'
 
-export function addRestaurantClickEvents(map) {
+export function addBarClickEvents(map) {
   // inspect a cluster on click
-  map.on('click', 'restaurant-clusters', function (e) {
+  map.on('click', 'bar-clusters', function (e) {
     var features = map.queryRenderedFeatures(e.point, {
-      layers: ['restaurant-clusters']
+      layers: ['bar-clusters']
     })
     var clusterId = features[0].properties.cluster_id
+    console.log(clusterId)
     map
-      .getSource('restaurants')
+      .getSource('bars')
       .getClusterExpansionZoom(clusterId, function (err, zoom) {
         if (err) return
 
@@ -23,9 +24,9 @@ export function addRestaurantClickEvents(map) {
   map.on('click', function (e) {
     /* Determine if a feature in the "locations" layer exists at that point. */
     let features = map.queryRenderedFeatures(e.point, {
-      layers: ['restaurant']
+      layers: ['bar']
     })
-
+    console.log(features)
     /* If yes, then: */
     if (features.length) {
       let clickedPoint = features[0]
