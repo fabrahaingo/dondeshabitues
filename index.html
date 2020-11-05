@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sauve Ton Bar</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <script src="./js/overlay.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="menu">
+      <ul>
+        <li onclick="showOverlay()">Comment ca marche ?</li>
+      </ul>
+    </div>
+    <div id="overlay" onclick="hideOverlay()">
+      <div id="overlayContent">
+        <h1>Le don des Habitués</h1>
+        <p>
+          Fais des micro-dons à tes bars préférés en attendant leur réouverture.
+        </p>
+        <h2>L'objectif</h2>
+      </div>
+    </div>
+    <div id="map"></div>
+
+    <script type="module">
+      import { createMap } from './js/map/create.js'
+      import { onLoad } from './js/map/onLoad.js'
+      import { onClick } from './js/map/onClick.js'
+
+      let map = createMap()
+
+      onLoad(map)
+      onClick(map)
+    </script>
+  </body>
+</html>
