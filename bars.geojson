@@ -17,7 +17,7 @@
         "country": "France",
         "postalCode": "75005",
         "state": "Ile-de-France",
-        "fundLink": "https://cagnotte.me/76266-solera-283-rue-saint-jacques/fr"
+        "fundLink": "https://cagnotte.me/89392-cagnotte-test/fr"
       }
     },
     {
@@ -36,7 +36,26 @@
         "country": "France",
         "postalCode": "75006",
         "state": "Ile-de-France",
-        "fundLink": "https://cagnotte.me/76266-solera-283-rue-saint-jacques/fr"
+        "fundLink": "https://cagnotte.me/89392-cagnotte-test/fr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3625, 48.8641]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Carreau du Temple",
+        "phoneFormatted": "01 46 34 31 19",
+        "phone": "+33146343119",
+        "address": "Carreau du Temple",
+        "city": "Paris",
+        "country": "France",
+        "postalCode": "75006",
+        "state": "Ile-de-France",
+        "fundLink": "https://cagnotte.me/89392-cagnotte-test/fr"
       }
     }
   ]
