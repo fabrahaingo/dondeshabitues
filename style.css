@@ -36,6 +36,7 @@ body {
   max-width: 400px;
   border-radius: 10px;
   color: rgb(20, 20, 20);
+  overflow-y: scroll;
 }
 #overlayContent p {
   margin: 15px;
