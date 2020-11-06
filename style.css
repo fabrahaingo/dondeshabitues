@@ -17,6 +17,7 @@ body {
   margin-left: 15px;
   border-radius: 7px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #overlay {
@@ -26,9 +27,13 @@ body {
   z-index: 1000;
   justify-content: center;
   align-items: center;
-  display: none;
+  display: flex;
 }
 #overlayContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 80%;
   width: 80%;
   background: white;
@@ -38,8 +43,25 @@ body {
   color: rgb(20, 20, 20);
   overflow-y: scroll;
 }
+#leave-icon {
+  position: absolute;
+  right: 0;
+  font-size: 40px;
+  margin: 5px;
+  color: rgba(195, 0, 0, 0.7);
+  cursor: pointer;
+}
+#overlayContent img {
+  width: 60%;
+  padding-top: 2vh;
+}
+@media all and (max-width: 500px) {
+  #overlayContent img {
+    width: 80%;
+  }
+}
 #overlayContent p {
-  margin: 15px;
+  margin: 5px 15px;
 }
 #overlayContent h1 {
   font-size: 25px;
@@ -50,7 +72,8 @@ body {
 }
 #overlayContent h2 {
   font-size: 20px;
-  margin: 10px 15px 10px 15px;
+  margin: 15px 15px 10px 15px;
+  text-align: center;
 }
 #overlayContent ol {
   color: rgb(30, 30, 30);

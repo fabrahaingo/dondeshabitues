@@ -8,7 +8,6 @@ export function addBarClickEvents(map) {
       layers: ['bar-clusters']
     })
     var clusterId = features[0].properties.cluster_id
-    console.log(clusterId)
     map
       .getSource('bars')
       .getClusterExpansionZoom(clusterId, function (err, zoom) {
@@ -26,7 +25,6 @@ export function addBarClickEvents(map) {
     let features = map.queryRenderedFeatures(e.point, {
       layers: ['bar']
     })
-    console.log(features)
     /* If yes, then: */
     if (features.length) {
       let clickedPoint = features[0]
