@@ -5,57 +5,19 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.3464, 48.8462]
+        "coordinates": [2.37787, 48.85844]
       },
       "properties": {
         "id": 0,
-        "name": "Panthéon",
-        "phoneFormatted": "07 00 00 00 00",
-        "phone": "+33700000000",
-        "address": "2, place du Panthéon",
+        "name": "Mood - Bar à cocktails",
+        "phoneFormatted": "",
+        "phone": "",
+        "address": "81, rue Sedaine",
         "city": "Paris",
         "country": "France",
-        "postalCode": "75005",
+        "postalCode": "75011",
         "state": "Ile-de-France",
-        "fundLink": "https://cagnotte.me/89392-cagnotte-test/fr"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.3371, 48.8468]
-      },
-      "properties": {
-        "id": 1,
-        "name": "Jardin du Luxembourg",
-        "phoneFormatted": "01 00 00 00 00",
-        "phone": "+33100000000",
-        "address": "1, rue Soufflot",
-        "city": "Paris",
-        "country": "France",
-        "postalCode": "75006",
-        "state": "Ile-de-France",
-        "fundLink": "https://cagnotte.me/89392-cagnotte-test/fr"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.3625, 48.8641]
-      },
-      "properties": {
-        "id": 1,
-        "name": "Carreau du Temple",
-        "phoneFormatted": "01 00 00 00 00",
-        "phone": "+33100000000",
-        "address": "Carreau du Temple",
-        "city": "Paris",
-        "country": "France",
-        "postalCode": "75006",
-        "state": "Ile-de-France",
-        "fundLink": "https://cagnotte.me/89392-cagnotte-test/fr"
+        "fundLink": "https://cagnotte.me/10851-mood-75011-bar-a-cocktails/fr"
       }
     }
   ]

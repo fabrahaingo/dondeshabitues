@@ -1,43 +1,4 @@
 {
   "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.2945, 48.8584]
-      },
-      "properties": {
-        "id": 0,
-        "name": "Tour Eiffel",
-        "phoneFormatted": "07 00 00 00 00",
-        "phone": "+33700000000",
-        "address": "3, rue de la Tour Eiffel",
-        "city": "Paris",
-        "country": "France",
-        "postalCode": "75005",
-        "state": "Ile-de-France",
-        "fundLink": "https://cagnotte.me/89392-cagnotte-test/fr"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.3376, 48.8606]
-      },
-      "properties": {
-        "id": 1,
-        "name": "Le Louvre",
-        "phoneFormatted": "01 00 00 00 00",
-        "phone": "+33100000000",
-        "address": "3, rue du Louvre",
-        "city": "Paris",
-        "country": "France",
-        "postalCode": "75006",
-        "state": "Ile-de-France",
-        "fundLink": "https://cagnotte.me/89392-cagnotte-test/fr"
-      }
-    }
-  ]
+  "features": []
 }
